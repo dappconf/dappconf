@@ -1,0 +1,285 @@
+.page-call-for-speakers,
+.page-call-for-speakers,
+.page-press, .page-code-of-conduct {
+  .hero {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 53px;
+    @include breakpoint(desktop) {
+      margin-top: 0px;
+    }
+    a {
+      color: $yellow;
+      &.button {
+        color: $black;
+      }
+    }
+    img {
+      display: block;
+      width: 100%;
+      @include breakpoint(mobile) {
+        width: 180%;
+        margin-left: -40%;
+      }
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.1);
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      .wrapper {
+        display: table;
+        margin: 0 auto;
+        height: 100%;
+        z-index: 1;
+        .masthead {
+          padding-top: 53px;
+          display: table-cell;
+          vertical-align: middle;
+          h1,
+          p {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-press {
+  .hero {
+    &:after {
+      height: 26.5em;
+    }
+  }
+}
+
+.instuct {
+  .wrapper {
+    .left,
+    .right {
+      display: inline-block;
+    }
+    .left {
+      h2 {
+        text-align: left!important;
+        margin-top: 0;
+      }
+    }
+    .right {
+      &.stay-tuned {
+        box-sizing: border-box;
+        border: 2px solid $yellow;
+        float: none;
+        position: relative;
+        min-height: 30em;
+        z-index: 1;
+        @include breakpoint(desktop) {
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+.bg-gray {
+  background-color: rgba(204, 204, 204, .5) !important;
+}
+
+.perks-list {
+  display: inline-block;
+  list-style: none;
+  width: 100%;
+  margin: $space 0;
+  text-align: center;
+  li {
+    float: left;
+    width: 25%;
+    vertical-align: top;
+    > div {
+      padding-bottom: 1em;
+      min-height: 8em;
+      vertical-align: middle;
+      img {
+        max-width: 50%;
+      }
+      @include breakpoint(desktop) {
+        img {
+          max-width: 100%;
+        }
+      }
+      @include breakpoint(mobile) {
+        img {
+          max-width: 50%;
+        }
+      }
+    }
+  }
+  @include breakpoint(mobile) {
+    li {
+      width: 50%;
+      p {
+        height: 40px;
+      }
+    }
+  }
+}
+
+.option-list {
+  @extend .perks-list;
+  margin-top: 2em;
+  li {
+    width: 33%;
+    > div {
+      img {
+        height: 10em;
+      }
+    }
+  }
+}
+
+.sponsor-extra {
+  ul {
+    list-style: none;
+    margin-left: 0;
+    width: 100%;
+    margin: $space*2 0;
+    li {
+      margin: $space 0;
+      padding-left: 6em;
+      position: relative;
+      .icon-wrapper {
+        margin-right: 1em;
+        text-align: center;
+        width: 4em;
+        img {
+          vertical-align: middle;
+          max-width: 100%;
+        }
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      div {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      h5 {
+        margin-bottom: .2em;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.press-material {
+  .meterial-list {
+    width: 100%;
+    display: inline-block;
+    // margin-top: 2em;
+    .meterial-logo,
+    .meterial-press {
+      width: 50%;
+      display: inline-block;
+      position: relative;
+      padding: 0 18px;
+      text-align: center;
+      float: left;
+      box-sizing: border-box;
+      img {
+        width: 100%;
+        margin: 0 0 24px 0;
+      }
+      .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        //background-color: rgba(56,84,100,0.8);
+        width: 100%;
+        height: 100%;
+        img {
+          max-height: 3em;
+          max-width: 200px;
+        }
+        @include breakpoint(desktop) {
+          img {
+            max-height: 5em;
+            max-width: 300px;
+          }
+        }
+        div {
+          position: absolute;
+          width: 280px;
+          height: 156px;
+          left: 50%;
+          top: 50%;
+          margin-top: -78px;
+          margin-left: -140px;
+        }
+      }
+      @include breakpoint(mobile) {
+        width: 100%;
+        padding: 0;
+        .background {
+          img {
+            margin: 0px;
+          }
+        }
+        .content {
+          div {
+            width: 200px;
+            height: 100px;
+            margin-left: -100px;
+            margin-top: -50px;
+            img {
+              max-width: 150px;
+              margin-bottom: 10px;
+            }
+          }
+        }
+        &.meterial-logo {
+          margin-bottom: $space;
+        }
+      }
+    }
+    .meterial-press {
+      .content {
+        div {
+          margin-top: -86px;
+        }
+        //background-color: rgba(0,0,10,0.7);
+      }
+    }
+    .meterial-logo {
+      .content {
+        div {
+          &:nth-child(1) {
+            img {
+              padding-top: 1em;
+            }
+          }
+        }
+      }
+    }
+    .background {
+      line-height: 0;
+    }
+  }
+  p.request {
+    color: $white;
+    margin-top: $space;
+    // position: absolute;
+    // bottom: - $space;
+    // left: 0px;
+    // width: 100%;
+    // text-align: center;
+    a {
+      color: $yellow;
+    }
+  }
+}

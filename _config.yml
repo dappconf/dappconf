@@ -1,0 +1,20 @@
+# Site settings
+title: "DAPP Developer Conference"
+baseurl: ""
+url: "http://dappconf.cn"
+exclude: ['README.md', 'package.json', 'bower.json', 'Gemfile', 'gulpfile.js', 'node_modules', 'dist/scss', 'dist/js', '*.log']
+languages: ['cn', 'en']
+
+collections:
+  pastspeakers:
+    output: false
+  presentspeakers:
+    output: false
+  companies:
+    output: false
+
+# Plugins
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-multiple-languages-plugin

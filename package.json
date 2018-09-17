@@ -1,0 +1,31 @@
+{
+  "name": "dappconf2018",
+  "version": "0.0.1",
+  "description": "The official website for DAppConf China 2018.",
+  "scripts": {
+    "predeploy": "gulp css && gulp js && gulp jekyll-build",
+    "deploy": "gh-pages -d _site",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dappconf/dappconf.github.io.git"
+  },
+  "author": "DAppConf China",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-minify-css": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "node-bourbon": "*"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gh-pages": "^0.12.0",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1"
+  }
+}
