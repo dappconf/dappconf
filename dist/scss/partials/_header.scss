@@ -141,11 +141,11 @@
     display: table-cell;
     img {
       float: left;
-      width: 50%;
+      width: 100%;
     }
     @include breakpoint(desktop) {
       margin-top: 0;
-      width: $space*6;
+      width: $space*3;
     }
   }
   .lang {

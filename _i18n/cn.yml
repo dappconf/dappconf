@@ -26,12 +26,12 @@ tip: 仅有100张早鸟票！
 call_for_speakers_sub: 分享你的观点经验，在这里遇到有趣的人
 call_for_speakers_p: 你有一个很酷的点子或者 DAPP 项目想和区块链社区分享么？中国 DAPP 开发者大会将于11月09至10日在北京举行，现已开放演讲者及赞助商的申请通道，截止时间为北京时间<strong>2018年10月10日24点</strong>。欢迎所有区块链开发者及爱好者的踊跃参与！
 call_for_sponsors_p0: 中国 DAPP 开发者大会是以技术开发者为中心的非营利大会，你的支持对本次活动的成功至关重要，活动组织方承诺这些资金将被合理利用。本次大会提供金、银、铜三种不同赞助方案，具体细节请点击了解详情。我们也欢迎金钱以外其他方式的赞助，和组织方聊聊吧<a href='mailto:perry.zheng@imosociety.com'>perry.zheng@imosociety.com</a>。
-call_for_sponsors_p: 本次中国 DAPP 开发者大会将有三种赞助级别－金牌赞助商、银牌赞助商及铜牌赞助商。你的支持对本次活动的成功至关重要，活动组织方承诺这些资金将被合理利用。我们将不同的赞助级别的需求及回馈列在下面。我们也欢迎金钱以外其他方式的赞助，和组织方聊聊吧<a href='mailto:perry.zheng@imosociety.com'>perry.zheng@imosociety.com</a>.
+call_for_sponsors_p: 本次中国 DAPP 开发者大会将有三种赞助级别－钻石赞助商、铂金赞助商及黄金赞助商。你的支持对本次活动的成功至关重要，活动组织方承诺这些资金将被合理利用。我们将不同的赞助级别的需求及回馈列在下面。我们也欢迎金钱以外其他方式的赞助，和组织方聊聊吧<a href='mailto:perry.zheng@imosociety.com'>perry.zheng@imosociety.com</a>.
 join: 加入
 sponsor: 赞助
 sponsors: 赞助商
-sponsors_silver: 银牌赞助商
-sponsors_bronze: 铜牌赞助商
+sponsors_silver: 铂金赞助商
+sponsors_bronze: 黄金赞助商
 sponsors_speaker: 讲师赞助商
 sponsors_afterparty: 晚宴赞助商
 media_partner: 媒体合作方
@@ -73,9 +73,9 @@ call_for_sponsors_p2: "<p>除了金钱赞助，我们也接受其他赞助方式
 call_for_sponsors_else_1: "<h5>讲师赞助</h5><p>提供大会期间贵公司讲师的交通及住宿。</p>"
 call_for_sponsors_else_2: "<h5>茶歇赞助</h5><p>大会茶歇期间提供贵品牌食物或饮品。</p>"
 call_for_sponsors_else_3: "<h5>派对赞助</h5><p>提供大会晚宴期间的场地/饮品/表演。</p>"
-gold_sponsor: 金牌
-silver_sponsor: 银牌
-bronze_sponsor: 铜牌
+gold_sponsor: 钻石
+silver_sponsor: 铂金
+bronze_sponsor: 黄金
 download_package: 获取更多赞助详情
 
 press_head: 获取媒体宣传信息
@@ -99,7 +99,7 @@ header_sponsors: 赞助商
 header_media: 媒体
 header_schedule: 大会安排
 
-special_sponsor: 特别赞助商
+special_sponsor: 展位赞助商
 
 schedule_main_title: 主会场
 schedule_workshop_title: 分会场
@@ -111,10 +111,10 @@ schedule_end: 结束
 schedule_day1: 第一天
 schedule_day2: 第二天
 
-sponsors_gold: 金牌赞助商
-sponsors_bronze: 铜牌赞助商
+sponsors_gold: 钻石赞助商
+sponsors_bronze: 黄金赞助商
 
-about_organizer: DAppConf 由 imondo里世界 和 链人国际 联合主办。<br/><br/>imondo里世界 是一家本部位于上海的科技公司，专注于区块链行业咨询、技术架构开发及整合营销服务。主要项目包括 imondo 社区 和 imondoEDU 里世界学院，通过组织每月在不同城市的 imondo MeetUp 线下活动来推动行业技术普及和发展。目前正在构建两个主要基于 FIBOS 的 DApp，致力于打造新鲜、专业、有趣、高效的沟通平台，助力行业优质内容沉淀和正向发展。
+about_organizer: DAppConf 由 imondo里世界 和 链人国际 联合主办。<br/><br/>imondo里世界 是一家本部位于上海的科技公司，专注于区块链行业咨询、技术架构开发及整合营销服务。主要项目包括 imondo 社区 和 imondoEDU 里世界学院，通过组织每月在不同城市的 imondo MeetUp 线下活动来推动行业技术普及和发展。目前正在构建两个主要基于 FIBOS 的 DApp，致力于打造新鲜、专业、有趣、高效的沟通平台，助力行业优质内容沉淀和正向发展。<br/><br/>链人ChainHR 是全球领先的区块链领域人才服务商，专注区块链行业招聘、培训，为区块链生态搭建人才地基，传递区块链人才价值。链人ChainHR 全球运营中心在北京，同时在上海、深圳、成都、加拿大、美国、新加坡、澳大利亚等地均有自己的小伙伴协同作战。链人ChainHR 已经获得火币集团、歌者资本、节点资本、信天创投、库神钱包、蜂窝矿机、链上科技、星瀚资本等行业知名机构投资。
 media_partner_exclusive: 独家直播平台
 watch_us_online: 大会直播前往
 header_deck: 演讲文档
