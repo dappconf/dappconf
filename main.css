@@ -268,7 +268,7 @@ button.close:hover:before{opacity:.8}
 }
 #footer .wrapper .wechat h3,#footer .wrapper .wechat p,#footer .wrapper a.hashtag{color:#fff}
 #header .lang,#header .logo{display:block;position:relative;z-index:1}
-#header .logo{width:84px;margin-top:-6px;vertical-align:middle;display:table-cell}
+#header .logo{width:42px;margin-top:-6px;vertical-align:middle;display:table-cell}
 #header .logo img{float:left;width:100%}
 #header .lang{color:#fff;line-height:28px;text-decoration:none}
 @media (min-width:1024px){#header .logo{margin-top:0;width:72px}

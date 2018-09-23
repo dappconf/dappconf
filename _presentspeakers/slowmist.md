@@ -1,10 +1,10 @@
 ---
 user: slowmist
-name: 神秘嘉宾
-topicEN: Dapp合约安全（拟）
-topicCN: Dapp合约安全（拟）
-company: 慢雾科技
-link:  慢雾科技
+name: keywolf
+topicEN: 详解Dapp中的合约安全（拟）
+topicCN: 详解Dapp中的合约安全（拟）
+company: 慢雾科技安全研究员
+link:  http://dappconf.cn/
 featured: true
 type: presentspeaker
 ---

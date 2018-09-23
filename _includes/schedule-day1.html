@@ -11,11 +11,22 @@
   </div>
   <div class="time-table-row border-bottom">
     <div class="time-table-col main-left"><span class="time">9:30 - 9:50</span></div>
-    <div class="time-table-col main-right">{% t schedule_welcome %}</div>
-    <!-- <div class="time-table-col side"></div> -->
+    <div class="time-table-col main-right">
+      {% assign guillermo = site.presentspeakers | where:"user", "shangwei" %}
+      <div class="topic">
+      {% if site.lang == 'cn' %}
+        {{ guillermo[0].topicCN }}
+      {% else %}
+        {{ guillermo[0].topicEN }}
+      {% endif %}
+      </div>
+      <div class="speaker">
+        {{ guillermo[0].name }}
+      </div>
+    </div>
   </div>
   <div class="time-table-row">
-    <div class="time-table-col main-left"><div class="time">9:50 - 10:30</div>Keynote</div>
+    <div class="time-table-col main-left"><div class="time">9:50 - 12:00</div>Keynote</div>
     <div class="time-table-col main-right">
       {% assign guillermo = site.presentspeakers | where:"user", "fibos" %}
       <div class="topic">
@@ -33,7 +44,7 @@
   </div>
   <div class="time-table-row heading">
     <div class="time-table-col heading-left"></div>
-    <div class="time-table-col heading-right">12:30-13:30 {% t schedule_lunch %}</div>
+    <div class="time-table-col heading-right">12:00-13:30 {% t schedule_lunch %}</div>
   </div>
   <div class="time-table-row border-bottom">
     <div class="time-table-col main-left"><div class="time">13:30 - 16:00</div>Keynote</div>
@@ -57,18 +68,15 @@
     <!-- <div class="time-table-col side"></div> -->
   </div>
   <div class="time-table-row heading">
-    <div class="time-table-col">16:00-16:30 {% t schedule_coffee %}</div>
+    <div class="time-table-col">16:00-16:15 {% t schedule_coffee %}</div>
   </div>
   <div class="time-table-row">
-    <div class="time-table-col main-left"><span class="time">16:30 - 18:00</span></div>
+    <div class="time-table-col main-left"><span class="time">16:15 - 18:00</span></div>
     <div class="time-table-col main-right">
       <div class="topic">
-        区块链Dapp未来发展研讨会
+        闭门讨论会：Dapp开发和安全的未来
       </div>
     </div>
     <!-- <div class="time-table-col side"></div> -->
-  </div>
-  <div class="time-table-row heading">
-    <div class="time-table-col main-right">20:00-22:30 晚宴</div>
   </div>
 </div>
